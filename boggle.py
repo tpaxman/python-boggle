@@ -112,7 +112,7 @@ def display_words(words):
 
 def main():
     # this is the function that will run the whole project
-    grid = make_grid(10, 10)
+    grid = make_grid(4, 4)
     dictionary = get_dictionary('words.txt')
     words = search(grid, dictionary)
     display_words(words)
